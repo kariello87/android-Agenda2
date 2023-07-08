@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/item_aluno_nome"
+        style="@style/textView_item_aluno"
+        android:textSize="24sp"
+        tools:text="Felipe Guedes" />
+
+    <TextView
+        android:id="@+id/item_aluno_telefone"
+        style="@style/textView_item_aluno"
+        android:layout_marginRight="8dp"
+        tools:text="21 988112011" />
+
+
+</LinearLayout>
